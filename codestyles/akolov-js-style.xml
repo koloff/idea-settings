@@ -6,7 +6,7 @@
     <option name="HTML_SPACE_INSIDE_EMPTY_TAG" value="true" />
     <option name="HTML_ELEMENTS_TO_INSERT_NEW_LINE_BEFORE" value="body,div,p,form,h1,h2,h3,br" />
     <option name="HTML_ELEMENTS_TO_REMOVE_NEW_LINE_BEFORE" value="" />
-    <option name="HTML_INLINE_ELEMENTS" value="b,br,i," />
+    <option name="HTML_INLINE_ELEMENTS" value="b,br,i" />
     <option name="HTML_ENFORCE_QUOTES" value="true" />
     <option name="HTML_NEWLINE_BEFORE_FIRST_ATTRIBUTE" value="When multiline" />
     <option name="HTML_NEWLINE_AFTER_LAST_ATTRIBUTE" value="When multiline" />
@@ -17,7 +17,6 @@
     <option name="USE_DOUBLE_QUOTES" value="false" />
     <option name="FORCE_QUOTE_STYlE" value="true" />
     <option name="ENFORCE_TRAILING_COMMA" value="WhenMultiline" />
-    <option name="JSX_ATTRIBUTE_VALUE" value="None" />
     <option name="VAR_DECLARATION_WRAP" value="5" />
     <option name="OBJECT_LITERAL_WRAP" value="2" />
     <option name="IMPORTS_WRAP" value="2" />
