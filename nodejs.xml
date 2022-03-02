@@ -3,5 +3,8 @@
     <local-interpreter path="/usr/local/bin/node">
       <version-cache version="16.14.0" last-modified="1644326442000" />
     </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v16.3.0/bin/node">
+      <version-cache version="16.3.0" last-modified="1622682773000" />
+    </local-interpreter>
   </component>
 </application>
