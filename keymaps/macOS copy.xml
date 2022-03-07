@@ -1,14 +1,16 @@
 <keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
-  <action id="ActivateCommitToolWindow" />
+  <action id="ActivateCommitToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl 0" />
+  </action>
   <action id="ActivateProblemsViewToolWindow" />
   <action id="ActivateStructureToolWindow">
     <keyboard-shortcut first-keystroke="meta 0" />
   </action>
   <action id="ActivateTerminalToolWindow">
-    <keyboard-shortcut first-keystroke="meta equals" />
+    <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
   <action id="ActivateVersionControlToolWindow">
-    <keyboard-shortcut first-keystroke="meta minus" />
+    <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>
   <action id="Adtui.ZoomInAction">
     <keyboard-shortcut first-keystroke="meta add" />
@@ -18,6 +20,11 @@
   </action>
   <action id="Adtui.ZoomToActualAction">
     <keyboard-shortcut first-keystroke="meta numpad0" />
+  </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="meta open_bracket" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="alt h" />
   </action>
   <action id="ChangesView.Rename">
     <keyboard-shortcut first-keystroke="f2" />
@@ -35,6 +42,8 @@
   <action id="DSM.ZoomIn">
     <keyboard-shortcut first-keystroke="meta add" />
   </action>
+  <action id="EditorCutLineEnd" />
+  <action id="EditorJoinLines" />
   <action id="EditorScrollToCenter" />
   <action id="ExpandAll">
     <keyboard-shortcut first-keystroke="meta add" />
@@ -55,11 +64,21 @@
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="shift ampersand" />
   </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="meta close_bracket" />
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="alt l" />
+  </action>
   <action id="Git.Rename.Local.Branch">
     <keyboard-shortcut first-keystroke="f2" />
   </action>
   <action id="Git.Reword.Commit">
     <keyboard-shortcut first-keystroke="f2" />
+  </action>
+  <action id="GotoBookmark0" />
+  <action id="GuiDesigner.QuickJavadoc">
+    <keyboard-shortcut first-keystroke="f1" />
+    <mouse-shortcut keystroke="control button2" />
   </action>
   <action id="Images.Editor.ZoomIn">
     <keyboard-shortcut first-keystroke="meta add" />
@@ -72,6 +91,21 @@
   </action>
   <action id="Maven.ExpandAll">
     <keyboard-shortcut first-keystroke="meta add" />
+  </action>
+  <action id="NextOccurence">
+    <keyboard-shortcut first-keystroke="shift ctrl j" />
+  </action>
+  <action id="NextSplitter">
+    <keyboard-shortcut first-keystroke="alt tab" />
+    <keyboard-shortcut first-keystroke="shift ctrl l" />
+  </action>
+  <action id="NextTab" />
+  <action id="PreviousOccurence">
+    <keyboard-shortcut first-keystroke="shift ctrl k" />
+  </action>
+  <action id="QuickJavaDoc">
+    <keyboard-shortcut first-keystroke="f1" />
+    <mouse-shortcut keystroke="control button2" />
   </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift circumflex" />
@@ -91,4 +125,8 @@
   <action id="Terminal.SwitchFocusToEditor" />
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
+  <action id="Vcs.Log.ShowTooltip">
+    <keyboard-shortcut first-keystroke="f1" />
+    <mouse-shortcut keystroke="control button2" />
+  </action>
 </keymap>
