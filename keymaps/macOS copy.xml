@@ -22,9 +22,7 @@
     <keyboard-shortcut first-keystroke="meta numpad0" />
   </action>
   <action id="Back">
-    <keyboard-shortcut first-keystroke="meta open_bracket" />
-    <mouse-shortcut keystroke="button4" />
-    <keyboard-shortcut first-keystroke="alt h" />
+    <keyboard-shortcut first-keystroke="ctrl meta h" />
   </action>
   <action id="ChangesView.Rename">
     <keyboard-shortcut first-keystroke="f2" />
@@ -65,9 +63,7 @@
     <keyboard-shortcut first-keystroke="shift ampersand" />
   </action>
   <action id="Forward">
-    <keyboard-shortcut first-keystroke="meta close_bracket" />
-    <mouse-shortcut keystroke="button5" />
-    <keyboard-shortcut first-keystroke="alt l" />
+    <keyboard-shortcut first-keystroke="ctrl meta l" />
   </action>
   <action id="Git.Rename.Local.Branch">
     <keyboard-shortcut first-keystroke="f2" />
@@ -92,16 +88,19 @@
   <action id="Maven.ExpandAll">
     <keyboard-shortcut first-keystroke="meta add" />
   </action>
+  <action id="NextEditorTab" />
   <action id="NextOccurence">
     <keyboard-shortcut first-keystroke="shift ctrl j" />
   </action>
-  <action id="NextSplitter">
-    <keyboard-shortcut first-keystroke="alt tab" />
+  <action id="NextTab">
     <keyboard-shortcut first-keystroke="shift ctrl l" />
   </action>
-  <action id="NextTab" />
+  <action id="PreviousEditorTab" />
   <action id="PreviousOccurence">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="shift ctrl h" />
   </action>
   <action id="QuickJavaDoc">
     <keyboard-shortcut first-keystroke="f1" />
@@ -121,6 +120,9 @@
   </action>
   <action id="SwitcherForward">
     <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
+  <action id="Terminal.NextSplitter">
+    <keyboard-shortcut first-keystroke="alt tab" />
   </action>
   <action id="Terminal.SwitchFocusToEditor" />
   <action id="TypeHierarchy" />
