@@ -1,15 +1,41 @@
 <keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
+  <action id="ActivateCommitToolWindow" />
   <action id="ActivateProblemsViewToolWindow" />
-  <action id="ActivateStructureToolWindow" />
+  <action id="ActivateStructureToolWindow">
+    <keyboard-shortcut first-keystroke="meta 0" />
+  </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="meta equals" />
+  </action>
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="meta minus" />
+  </action>
   <action id="Adtui.ZoomInAction">
     <keyboard-shortcut first-keystroke="meta add" />
+  </action>
+  <action id="Adtui.ZoomOutAction">
+    <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
+  <action id="Adtui.ZoomToActualAction">
+    <keyboard-shortcut first-keystroke="meta numpad0" />
   </action>
   <action id="ChangesView.Rename">
     <keyboard-shortcut first-keystroke="f2" />
   </action>
+  <action id="CollapseAll">
+    <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
+  <action id="CollapseExpandableComponent">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
   <action id="DSM.ZoomIn">
     <keyboard-shortcut first-keystroke="meta add" />
   </action>
+  <action id="EditorScrollToCenter" />
   <action id="ExpandAll">
     <keyboard-shortcut first-keystroke="meta add" />
   </action>
@@ -19,6 +45,9 @@
   </action>
   <action id="ExpandRegion">
     <keyboard-shortcut first-keystroke="meta add" />
+  </action>
+  <action id="ExternalSystem.CollapseAll">
+    <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
   <action id="ExternalSystem.ExpandAll">
     <keyboard-shortcut first-keystroke="meta add" />
@@ -35,6 +64,12 @@
   <action id="Images.Editor.ZoomIn">
     <keyboard-shortcut first-keystroke="meta add" />
   </action>
+  <action id="Images.Editor.ZoomOut">
+    <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
+  <action id="Maven.CollapseAll">
+    <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
   <action id="Maven.ExpandAll">
     <keyboard-shortcut first-keystroke="meta add" />
   </action>
@@ -44,7 +79,16 @@
   <action id="ShelvedChanges.Rename">
     <keyboard-shortcut first-keystroke="f2" />
   </action>
-  <action id="Terminal.SwitchFocusToEditor">
-    <keyboard-shortcut first-keystroke="meta equals" />
+  <action id="Switcher">
+    <keyboard-shortcut first-keystroke="ctrl tab" />
   </action>
+  <action id="SwitcherBackward">
+    <keyboard-shortcut first-keystroke="ctrl h" />
+  </action>
+  <action id="SwitcherForward">
+    <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
+  <action id="Terminal.SwitchFocusToEditor" />
+  <action id="TypeHierarchy" />
+  <action id="TypeHierarchyBase.BaseOnThisType" />
 </keymap>
