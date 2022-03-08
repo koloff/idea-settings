@@ -5,11 +5,12 @@
   <action id="ActivateFindToolWindow">
     <keyboard-shortcut first-keystroke="meta 4" />
   </action>
-  <action id="ActivateProblemsViewToolWindow" />
+  <action id="ActivateProblemsViewToolWindow">
+    <keyboard-shortcut first-keystroke="meta 5" />
+  </action>
   <action id="ActivateRunToolWindow" />
   <action id="ActivateServicesToolWindow" />
   <action id="ActivateStructureToolWindow">
-    <keyboard-shortcut first-keystroke="meta 5" />
     <keyboard-shortcut first-keystroke="meta escape" />
   </action>
   <action id="ActivateTerminalToolWindow">
