@@ -8,7 +8,9 @@
   <action id="ActivateProblemsViewToolWindow">
     <keyboard-shortcut first-keystroke="meta 5" />
   </action>
-  <action id="ActivateRunToolWindow" />
+  <action id="ActivateRunToolWindow">
+    <keyboard-shortcut first-keystroke="meta 8" />
+  </action>
   <action id="ActivateServicesToolWindow" />
   <action id="ActivateStructureToolWindow">
     <keyboard-shortcut first-keystroke="meta escape" />
