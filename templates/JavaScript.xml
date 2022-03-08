@@ -1,7 +1,11 @@
 <templateSet group="JavaScript">
-  <template name="arf" value="() =&gt; { &#10;  $SELECTION$&#10;}" description="Surround with Arrow Function" toReformat="true" toShortenFQNames="true">
+  <template name="log" value="console.log($END$)" description="console.log()" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="&gt;" value="() =&gt; { $SELECTION$ }" description="Surround with Arrow Function" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="ECMAScript6" value="true" />
+      <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>
