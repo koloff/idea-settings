@@ -75,7 +75,6 @@
   <action id="FileChooser.GotoModule" />
   <action id="FileChooser.GotoProject" />
   <action id="FindUsages">
-    <keyboard-shortcut first-keystroke="shift ampersand" />
     <keyboard-shortcut first-keystroke="meta 7" />
   </action>
   <action id="Forward">
