@@ -31,6 +31,9 @@
   <TypeScriptCodeStyleSettings version="0">
     <option name="IMPORT_SORT_MODULE_NAME" value="true" />
   </TypeScriptCodeStyleSettings>
+  <XML>
+    <option name="XML_ALIGN_ATTRIBUTES" value="false" />
+  </XML>
   <editorconfig>
     <option name="ENABLED" value="false" />
   </editorconfig>
