@@ -6,8 +6,8 @@
     <option name="compactSidebar" value="true" />
     <option name="isCompactMenus" value="true" />
     <option name="isCompactStatusBar" value="true" />
-    <option name="accentColor" value="ff9800" />
-    <option name="selectedTheme" value="DARKER" />
+    <option name="isWizardShown" value="true" />
+    <option name="accentColor" value="009688" />
     <option name="userId" value="1cc4f9b3:17f30a1b6f0:-7ff3" />
     <option name="version" value="6.13.0" />
   </component>
